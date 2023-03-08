@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C00324E29B7F7E000FDEFCA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C00324D29B7F7E000FDEFCA /* main.swift */; };
+		1C854A6429B8219F00BA8247 /* Exemplo Aula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C854A6329B8219F00BA8247 /* Exemplo Aula.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1C00324A29B7F7E000FDEFCA /* Classe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Classe; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C00324D29B7F7E000FDEFCA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C854A6329B8219F00BA8247 /* Exemplo Aula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exemplo Aula.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1C00324D29B7F7E000FDEFCA /* main.swift */,
+				1C854A6329B8219F00BA8247 /* Exemplo Aula.swift */,
 			);
 			path = Classe;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C854A6429B8219F00BA8247 /* Exemplo Aula.swift in Sources */,
 				1C00324E29B7F7E000FDEFCA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
