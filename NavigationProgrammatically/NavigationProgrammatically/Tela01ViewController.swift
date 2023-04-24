@@ -5,6 +5,8 @@
 //  Created by Rafael Penna on 06/04/23.
 //
 
+// Exemplo de treinamento para navegação de forma programática entre telas utilizando Storyboard
+
 import UIKit
 
 class Tela01ViewController: UIViewController {
