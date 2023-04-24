@@ -5,6 +5,8 @@
 //  Created by Rafael Penna on 14/04/23.
 //
 
+// Exercício treinamento da utilização de xib em tableView realizado totalmente sem consulta.
+
 import UIKit
 
 class ViewController: UIViewController {
