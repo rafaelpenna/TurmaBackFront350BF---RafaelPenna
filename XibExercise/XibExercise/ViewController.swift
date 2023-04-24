@@ -5,6 +5,8 @@
 //  Created by Rafael Penna on 11/04/23.
 //
 
+// Exercício para treinamento da utlização de tableView com arquivos Xib para configuração da célula.
+
 import UIKit
 
 class ViewController: UIViewController {
