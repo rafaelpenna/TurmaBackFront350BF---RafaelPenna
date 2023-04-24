@@ -5,6 +5,8 @@
 //  Created by Rafael Penna on 17/04/23.
 //
 
+// Exercício sobre tableView realizado totalmente em ViewCode e sem consulta.
+
 import UIKit
 
 class ViewController: UIViewController {
