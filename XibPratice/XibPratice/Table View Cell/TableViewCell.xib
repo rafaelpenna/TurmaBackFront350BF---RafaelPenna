@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="137" id="VDV-G3-va1" customClass="TableViewCell" customModule="XibPratice" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="483" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VDV-G3-va1" id="YpC-N5-ZLx">
+                <rect key="frame" x="0.0" y="0.0" width="483" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corridas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTG-cB-s3N">
+                        <rect key="frame" x="175" y="94" width="65" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Equipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANC-82-WV7">
+                        <rect key="frame" x="175" y="58" width="53" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEC-Th-h3z">
+                        <rect key="frame" x="175" y="22" width="46" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ege-fV-dtd">
+                        <rect key="frame" x="50" y="28.5" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="UAN-yl-tfF"/>
+                            <constraint firstAttribute="width" constant="80" id="s3Z-7W-AXG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ANC-82-WV7" firstAttribute="top" secondItem="AEC-Th-h3z" secondAttribute="bottom" constant="15" id="812-n3-Pdw"/>
+                    <constraint firstItem="ANC-82-WV7" firstAttribute="centerY" secondItem="YpC-N5-ZLx" secondAttribute="centerY" id="CHd-hP-Foq"/>
+                    <constraint firstItem="ANC-82-WV7" firstAttribute="leading" secondItem="Ege-fV-dtd" secondAttribute="trailing" constant="45" id="Mu1-R1-DeW"/>
+                    <constraint firstItem="qTG-cB-s3N" firstAttribute="top" secondItem="ANC-82-WV7" secondAttribute="bottom" constant="15" id="f3F-Tz-p3c"/>
+                    <constraint firstItem="AEC-Th-h3z" firstAttribute="leading" secondItem="Ege-fV-dtd" secondAttribute="trailing" constant="45" id="irr-h3-OkW"/>
+                    <constraint firstItem="Ege-fV-dtd" firstAttribute="leading" secondItem="YpC-N5-ZLx" secondAttribute="leading" constant="50" id="kkn-fB-RYw"/>
+                    <constraint firstItem="Ege-fV-dtd" firstAttribute="centerY" secondItem="YpC-N5-ZLx" secondAttribute="centerY" id="luW-0c-5Ao"/>
+                    <constraint firstItem="qTG-cB-s3N" firstAttribute="leading" secondItem="Ege-fV-dtd" secondAttribute="trailing" constant="45" id="wHM-ZZ-znY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="driverImage" destination="Ege-fV-dtd" id="IuT-8Z-NeK"/>
+                <outlet property="nameDriver" destination="AEC-Th-h3z" id="ttS-io-n2P"/>
+                <outlet property="racesDriver" destination="qTG-cB-s3N" id="L3M-eY-sGv"/>
+                <outlet property="teamDriver" destination="ANC-82-WV7" id="4WI-de-HKG"/>
+            </connections>
+            <point key="canvasLocation" x="135.50724637681159" y="88.727678571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
