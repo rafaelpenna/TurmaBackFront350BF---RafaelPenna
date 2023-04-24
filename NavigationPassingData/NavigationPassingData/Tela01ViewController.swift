@@ -5,6 +5,8 @@
 //  Created by Rafael Penna on 06/04/23.
 //
 
+// Exercício de treinamento para envio de dados para outra view controller através de navegação (pushViewController)
+
 import UIKit
 
 class Tela01ViewController: UIViewController {
