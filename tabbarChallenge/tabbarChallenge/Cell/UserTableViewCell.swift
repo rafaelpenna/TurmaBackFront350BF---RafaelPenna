@@ -8,6 +8,8 @@
 import UIKit
 
 class UserTableViewCell: UITableViewCell {
+    
+    static let identifier: String = "UserTableViewCell"
 
     @IBOutlet var userImageView: UIImageView!
     @IBOutlet var userNameLabel: UILabel!
@@ -17,11 +19,14 @@ class UserTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    static func nib() -> UINib {
+        return UINib(nibName: identifier, bundle: nil)
+    }
+    
+    func setupCell(user: User) {
+        userImageView.image = UIImage(named: "\(user.image)") ?? UIImage(named: "ayrton-senna")
+        userNameLabel.text = user.name
     }
 
 }
