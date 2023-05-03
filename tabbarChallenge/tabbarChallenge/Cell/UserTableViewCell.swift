@@ -25,7 +25,7 @@ class UserTableViewCell: UITableViewCell {
     }
     
     func setupCell(user: User) {
-        userImageView.image = UIImage(named: "\(user.image)") ?? UIImage(named: "ayrton-senna")
+        userImageView.image = user.image
         userNameLabel.text = user.name
     }
 

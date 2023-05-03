@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        configureTableView()
+        
     }
     
     private func configureTableView() {
@@ -29,9 +30,11 @@ class ViewController: UIViewController {
         usersTableView.register(UserTableViewCell.nib(), forCellReuseIdentifier: UserTableViewCell.identifier)
     }
 
-    @IBAction func addTappedButton(_ sender: Any) {
-        let data = nameTextField.text
-        dataList.append(data)
+    @IBAction func addTappedButton(_ sender: UIButton) {
+        dataList.append(User(name: nameTextField.text ?? "", image: userPictureView.image ?? UIImage()))
+        usersTableView.reloadData()
+        nameTextField.text = ""
+        userPictureView.image = UIImage(systemName: "person.circle.fill")
     }
     
 }
@@ -47,7 +50,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 90
+        return 143
     }
 }
 

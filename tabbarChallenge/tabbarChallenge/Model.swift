@@ -10,5 +10,5 @@ import UIKit
 
 struct User {
     var name: String
-    var image: String
+    var image: UIImage
 }
