@@ -16,6 +16,9 @@
 		1C3C43052A046BC00082DCFF /* NotificationCenterProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C43042A046BC00082DCFF /* NotificationCenterProtocolTests.swift */; };
 		1C3C430F2A046BC00082DCFF /* NotificationCenterProtocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C430E2A046BC00082DCFF /* NotificationCenterProtocolUITests.swift */; };
 		1C3C43112A046BC10082DCFF /* NotificationCenterProtocolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C43102A046BC00082DCFF /* NotificationCenterProtocolUITestsLaunchTests.swift */; };
+		1CACAC3D2A09633200E0B603 /* SelectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CACAC3C2A09633200E0B603 /* SelectionViewController.storyboard */; };
+		1CACAC3F2A09634500E0B603 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CACAC3E2A09634500E0B603 /* SelectionViewController.swift */; };
+		1CACAC412A0990FE00E0B603 /* NSNotification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CACAC402A0990FE00E0B603 /* NSNotification+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1C3C430A2A046BC00082DCFF /* NotificationCenterProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3C430E2A046BC00082DCFF /* NotificationCenterProtocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterProtocolUITests.swift; sourceTree = "<group>"; };
 		1C3C43102A046BC00082DCFF /* NotificationCenterProtocolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterProtocolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CACAC3C2A09633200E0B603 /* SelectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectionViewController.storyboard; sourceTree = "<group>"; };
+		1CACAC3E2A09634500E0B603 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		1CACAC402A0990FE00E0B603 /* NSNotification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				1C3C42ED2A046BAB0082DCFF /* AppDelegate.swift */,
 				1C3C42EF2A046BAB0082DCFF /* SceneDelegate.swift */,
+				1CACAC3E2A09634500E0B603 /* SelectionViewController.swift */,
+				1CACAC3C2A09633200E0B603 /* SelectionViewController.storyboard */,
 				1C3C42F12A046BAB0082DCFF /* ViewController.swift */,
 				1C3C42F32A046BAB0082DCFF /* Main.storyboard */,
 				1C3C42F62A046BBD0082DCFF /* Assets.xcassets */,
 				1C3C42F82A046BBD0082DCFF /* LaunchScreen.storyboard */,
 				1C3C42FB2A046BBD0082DCFF /* Info.plist */,
+				1CACAC402A0990FE00E0B603 /* NSNotification+Extension.swift */,
 			);
 			path = NotificationCenterProtocol;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			files = (
 				1C3C42FA2A046BBD0082DCFF /* LaunchScreen.storyboard in Resources */,
 				1C3C42F72A046BBD0082DCFF /* Assets.xcassets in Resources */,
+				1CACAC3D2A09633200E0B603 /* SelectionViewController.storyboard in Resources */,
 				1C3C42F52A046BAB0082DCFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3C42F22A046BAB0082DCFF /* ViewController.swift in Sources */,
+				1CACAC412A0990FE00E0B603 /* NSNotification+Extension.swift in Sources */,
+				1CACAC3F2A09634500E0B603 /* SelectionViewController.swift in Sources */,
 				1C3C42EE2A046BAB0082DCFF /* AppDelegate.swift in Sources */,
 				1C3C42F02A046BAB0082DCFF /* SceneDelegate.swift in Sources */,
 			);
