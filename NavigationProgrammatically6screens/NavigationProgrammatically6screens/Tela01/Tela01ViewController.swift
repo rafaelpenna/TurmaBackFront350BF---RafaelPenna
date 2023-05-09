@@ -5,8 +5,6 @@
 //  Created by Rafael Penna on 06/04/23.
 //
 
-// Exercício de treinamento para navegação de forma progrmática, com avanço e retorno pra última página, com a última tela retornando para o rootViewController
-
 import UIKit
 
 class Tela01ViewController: UIViewController {
