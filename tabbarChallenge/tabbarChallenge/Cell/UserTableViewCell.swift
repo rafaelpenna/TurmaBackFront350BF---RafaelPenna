@@ -17,7 +17,7 @@ class UserTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        userImageView.tintColor = .black
     }
     
     static func nib() -> UINib {
