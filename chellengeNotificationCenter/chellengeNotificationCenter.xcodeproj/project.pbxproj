@@ -15,7 +15,6 @@
 		1CBA3EDF2A0A73AD006108EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA3EDD2A0A73AD006108EC /* LaunchScreen.storyboard */; };
 		1CBA3EE82A0A7490006108EC /* InsertNameViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA3EE72A0A7490006108EC /* InsertNameViewController.storyboard */; };
 		1CBA3EEA2A0A74A9006108EC /* InsertNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3EE92A0A74A9006108EC /* InsertNameViewController.swift */; };
-		1CBA3EEC2A0A7569006108EC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3EEB2A0A7569006108EC /* TabBarController.swift */; };
 		1CBA3EEF2A0A89B2006108EC /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA3EEE2A0A89B2006108EC /* CustomTableViewCell.xib */; };
 		1CBA3EF12A0A89C7006108EC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3EF02A0A89C7006108EC /* CustomTableViewCell.swift */; };
 		1CBA3EF32A0A8B0B006108EC /* Model User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3EF22A0A8B0B006108EC /* Model User.swift */; };
@@ -32,7 +31,6 @@
 		1CBA3EE02A0A73AD006108EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CBA3EE72A0A7490006108EC /* InsertNameViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InsertNameViewController.storyboard; sourceTree = "<group>"; };
 		1CBA3EE92A0A74A9006108EC /* InsertNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNameViewController.swift; sourceTree = "<group>"; };
-		1CBA3EEB2A0A7569006108EC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1CBA3EEE2A0A89B2006108EC /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		1CBA3EF02A0A89C7006108EC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		1CBA3EF22A0A8B0B006108EC /* Model User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model User.swift"; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 				1CBA3EE62A0A7475006108EC /* Insert Name */,
 				1CBA3ED22A0A73AB006108EC /* AppDelegate.swift */,
 				1CBA3ED42A0A73AB006108EC /* SceneDelegate.swift */,
-				1CBA3EEB2A0A7569006108EC /* TabBarController.swift */,
 				1CBA3ED62A0A73AB006108EC /* ViewController.swift */,
 				1CBA3ED82A0A73AB006108EC /* Main.storyboard */,
 				1CBA3EDB2A0A73AD006108EC /* Assets.xcassets */,
@@ -179,7 +176,6 @@
 				1CBA3ED72A0A73AB006108EC /* ViewController.swift in Sources */,
 				1CBA3ED32A0A73AB006108EC /* AppDelegate.swift in Sources */,
 				1CBA3EEA2A0A74A9006108EC /* InsertNameViewController.swift in Sources */,
-				1CBA3EEC2A0A7569006108EC /* TabBarController.swift in Sources */,
 				1CBA3ED52A0A73AB006108EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
